@@ -4,10 +4,8 @@ Console.WriteLine($"Hello, World! Part {part}");
 
 int counter = 0;
 
-// no loop
-counter++;
-Console.WriteLine($"Counter is {counter}");
-counter++;
-Console.WriteLine($"Counter is {counter}");
-counter++;
-Console.WriteLine($"Counter is {counter}");
+while (counter < 3)
+{
+    counter++;
+    Console.WriteLine($"Counter is {counter}");
+}
