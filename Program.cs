@@ -5,9 +5,9 @@ Console.WriteLine($"Hello, World! Part {part}");
 int counter = 0;
 
 // no loop
-counter = counter + 1;
+counter++;
 Console.WriteLine($"Counter is {counter}");
-counter = counter + 1;
+counter++;
 Console.WriteLine($"Counter is {counter}");
-counter = counter + 1;
+counter++;
 Console.WriteLine($"Counter is {counter}");
